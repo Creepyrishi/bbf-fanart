@@ -288,15 +288,14 @@ nav ul a:active {
 }
 .achivements{
     width: 95%;
-    margin: 5rem auto;
-    height: 80vh;
+    margin: 0 auto;
+    height: calc(calc(3*95vh)/4);
     background-color: transparent;
     display: flex;
     justify-content: space-between;
     background-image: url("/static/img/achivement/bbf-achi1.jpg");
     background-repeat: no-repeat;
-    background-size: auto;
-    background-position: 8rem;
+    background-size: cover;
 }
 .achivements button{
     width: 100%;
