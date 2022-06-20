@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    scroll-behavior: smooth;
+    --black: rgb(0, 0, 0);
+    --white: rgb(255, 255, 255);
+}
+
+html {
+    font-size: 62.5%;
+    background-color: rgb(31, 29, 29);
+    color: white;
+}
+
+/* navbar */
+nav {
+    background-color: var(--black);
+    color: var(--white);
+    position: fixed;
+    width: 100%;
+    height: 6rem;
+    min-height: 4.6rem;
+    max-height: 6.5rem;
+    z-index: 1;
+}
+
+nav h1 {
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 1.2rem;
+}
+
+nav ul {
+    list-style: none;
+    transform: translateY(-4.2rem);
+}
+
+nav ul li {
+    float: right;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 1.8rem;
+    margin: 1rem;
+    padding: 0.8rem;
+    transition: 10ms 0 transform ease;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+nav ul a:hover {
+    font-size: 1.9rem;
+}
+
+nav ul a:active {
+    color: rgb(49, 17, 230);
+}
+
+.active {
+    color: rgb(230, 17, 17);
+}
+/* navbar ends */
+/* home */
+#home{
+    background-image: linear-gradient(-45deg, rgba(255,0,0, 1),rgba(255,0,0, 0)60%);
+}
+.id-container {
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.home-box {
+    text-align: center;
+}
+
+.home-box #logo {
+    border-radius: 50%;
+    height: 14rem;
+    width: 14rem;
+    padding: 0.4rem;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+#logo:hover {
+    transform: scale(1.05);
+}
+
+.home-box #title {
+    color: white;
+    font-size: 3rem;
+    font-family: 'Righteous', cursive;
+}
+
+.back {
+    position: absolute;
+    height: auto;
+    width: 100vw;
+    z-index: -1;
+}
+
+/* about */
+#about{
+    background-image: linear-gradient(4545deg, rgba(255,0,0, 1),rgba(255,0,0, 0)60%);
+    text-align: center;
+}
+.publicing-contents{
+    font-size: calc(100vw/75);
+    font-family: Righteous;
+    letter-spacing: 5px;
+}
+#about-bold ,.achievement-top, .contact-top{
+    font-family: 'Secular One', sans-serif;
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+    font-size: 3rem;
+    margin: 7rem;
+    line-height: 3rem;
+}
+.container-about-personal {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+/* personal caard */
+.personal-card{
+    box-shadow: 0.3rem 0.5rem 30px 5px rgba(205, 3, 255, 0.623);
+    padding: 2rem;
+    width: 40rem;
+    background-color: rgba(255, 255, 255, 0.651);
+    transition: transform 200ms ease-in-out;
+}
+.personal-card h4{
+    color: black;
+    font-family:'Secular One', sans-serif;
+    font-size: 3.5rem;
+    margin: 1rem;
+}
+.personal-card img{
+    border-radius: 50%;
+    height: 8rem;
+    width: 8rem;
+}
+.personal-card p{
+    font-size: 2rem;
+    line-height: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.personal-card li, h5{
+    list-style: none;
+    font-size: 2rem;
+    line-height: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.personal-card:hover{
+    transform: translateY(-2rem);
+}
+/* personal card ends  */
+.personal-pics{
+    box-shadow: 0.3rem 0.5rem 30px 5px rgba(205, 3, 255, 0.623);
+    padding: 2rem;
+    width: 55rem;
+    background-color: rgb(31, 7, 7);
+    transition: transform 200ms ease-in-out;
+}
+.personal-pics:hover{
+    transform: translateY(-2rem);
+}
+.personal-pics #personal-images{
+    width: 55rem;
+    height: auto;
+}
+/* youtube channel of talha */
+.youtube-channel-bbf{
+    margin: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.youtube-channel{
+    box-shadow: 0.3rem 0.5rem 30px 5px rgba(205, 3, 255, 0.623);
+    padding: 2rem;
+    width:22rem;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.651);
+    transition: transform 200ms ease-in-out;
+    margin: 2rem;
+}
+.youtube-channel:hover{
+    transform: translateY(-1rem);
+
+}
+.youtube-channel-bbf .bbf-channel-link{
+    text-decoration: none;
+}
+.youtube-channel h4{
+    color: black;
+    font-family:'Secular One', sans-serif;
+    font-size: 1.7rem;
+    margin: 0.6rem;
+}
+.youtube-channel .youtube-channel-logo{
+    border-radius: 50%;
+    height: 6.5rem;
+    width: 6.5rem;
+    padding: 2px;
+    border: 1px solid rgb(255, 255, 255);
+}
+.youtube-channel p{
+    color: white;
+    font-size: 1.7rem;
+    line-height: 3.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.live-symbol{
+    font-size: 0.8rem;
+    color: rgb(255, 0, 0);
+    padding: 0.5rem;
+    margin: 1rem;
+}
+/* about-family */
+.about-family{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.family-pics{
+    box-shadow: 0.3rem 0.5rem 30px 5px rgba(205, 3, 255, 0.623);
+    padding: 2rem;
+    width: 50rem;
+    height: auto;
+    background-color: rgb(31, 7, 7);
+    transition: transform 200ms ease-in-out;
+    margin: 3rem;
+}
+.family-card{
+    box-shadow: 0.3rem 0.5rem 30px 5px rgba(205, 3, 255, 0.623);
+    padding: 2rem;
+    width: 40rem;
+    background-color: rgba(255, 255, 255, 0.651);
+    transition: transform 200ms ease-in-out;
+    margin: 3rem;
+}
+.family-card:hover, .family-pics:hover{
+    transform: translateY(-2rem);
+}
+.family-pics #family-images{
+    width: 50rem;
+    height: auto;
+}
+.family-card img{
+    border-radius: 50%;
+    height: 8rem;
+    width: 8rem;
+}
+.family-card h4{
+    color: black;
+    font-family:'Secular One', sans-serif;
+    font-size: 3rem;
+    margin: 0.6rem;
+}
+.family-card p{
+    font-size: 2rem;
+    line-height: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#sisso-channel{
+    margin: 3rem auto;
+}
+.sisso-channel-link{
+    text-decoration: none;
+}
+
+/* achivements */
+#achievement{
+    text-align: center;
+}
+.achivements{
+    width: 95%;
+    margin: 5rem auto;
+    height: 80vh;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    background-image: url("/static/img/achivement/bbf-achi1.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 8rem;
+}
+.achivements button{
+    width: 100%;
+    height: 100%;
+    font-size: 2rem;
+    background-color: transparent;
+}
+
+.achivements button:hover{
+    color: rgb(226, 221, 214);
+}
+
+/* contact */
+#contact{
+    text-align: center;
+    height: 80vh;
+}
+#contact a i{
+    color: white;
+    font-size: 2.5rem;
+    margin: 1rem 3rem;
+
+}
+.contact-conatner a{
+    position: relative;
+    z-index: 3;
+}
+.contact-conatner a:hover span{
+    visibility: visible;
+
+}
+
+.contact-conatner a span{
+    transform: translateX(-2rem);
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    width: 3rem;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    visibility: hidden;
+}
+
+/* about developer */
+.main-about-dev{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.main-about-dev div h2, h6, p{
+    font-size: 1.7rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.abt-span{
+    width: 4rem;
+    height: 4rem;
+    margin: 1rem;
+}
+
+
+
+
+/* media queries */
+@media (max-width:800px) {
+    nav ul {
+        display: none;
+    }
+
+    .back {
+        height: 100vh;
+        width: auto;
+    }
+    html{
+        font-size: 8px;
+    }
+    .achivements button:hover{
+        color: rgb(0, 0, 0);
+    }
+
+}
+@media (max-width:1000px) {
+    .personal-pics #personal-images, .family-pics #family-images{
+        width: 95%;
+        height: auto;
+    }
+    
+
+}

@@ -1,0 +1,184 @@
+<!-- you will not find much  explained. just dom't die because my code looks horrible. I was not sure to complete this work. i am still on learning phase.  -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon"
+        href="https://cdn.discordapp.com/attachments/981026321796837416/987956605435920404/image_2022-06-19_112357070.png"
+        type="x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BBF</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static',filename='/style.css') }}">
+</head>
+
+<body>
+    <nav>
+        <h1>BBF</h1>
+        <ul class="navbar-heading">
+            <li class="navbar-li"><a href="/about-developer" target="_blank">About Developer</a></li>
+            <li class="navbar-li"><a href="#contact" class="contact">Contact</a></li>
+            <li class="navbar-li"><a href="#achievement" class="achievement">Achievement</a></li>
+            <li class="navbar-li"><a href="#about" class="about">About</a></li>
+            <li class="navbar-li"><a href="#home" class="home active">Home</a></li>
+        </ul>
+    </nav>
+    <!-- start of home -->
+    <section id="home">
+        <div id="home-bg">
+            <div class="id-container">
+                <video loop class="back">
+                    <source src="/static/vid/back.mp4" type="video/mp4">
+                </video>
+                <div class="home-box" id="upper">
+                    <img id="logo" src="/static/img/bbf.jpg" alt="">
+                    <p id="title">NOOB GAMER BBF</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of home -->
+    <!-- start of about  -->
+    <section id="about">
+        <p class="publicing-contents">GAMING | ANIME | BLOGS | REACTION</p>
+        <h2 id="about-bold">About</h2>
+        <div class="container-about-personal">
+            <div class="personal-card">
+                <img src="/static/img/bbf/abu.jpg" alt="sexy-talha">
+                <h4>ABU TALHA</h4>
+                <p id="nationaliy">Bangladesh</p>
+                <p id="DOB">DOB: 15 july</p>
+                <p id="free-fire-id">FF ID: 757191628</p>
+                <p id="income">Income: 60k $ per annum</p>
+                <p id="crush">Crush: <a href="https://g.co/kgs/ivjHoJ" target="_blank">Zero Two</a> & <a
+                        href="https://g.co/kgs/vBxsRc" target="_blank">Akeno Himejima</a></p>
+                <p id="eyeson">Eyes on: <a href="https://g.co/kgs/5nWjmG" target="_blank">Nezuko Kamado</a> & <a
+                        href="https://g.co/kgs/jtNxwM" target="_blank">Tsunade</a></p>
+                <p id="fab">
+                <h5>Favoutites:</h5>
+                <ul>
+                    <li>Making audince laugh</li>
+                    <li>Gaming</li>
+                    <li>Ecchi anime</li>
+                    <li>Free fire female character's melon</li>
+                </ul>
+                </p>
+                <p id="best friend">Best friend: <a href="https://www.youtube.com/c/Chumma20">Chumma</a></p>
+            </div>
+            <div class="personal-pics">
+                <img id="personal-images" src="/static/img/bbf/bbf-b (3).jpg" alt="failed loading">
+            </div>
+        </div>
+        <div class="youtube-channel-bbf">
+            <a href="https://www.youtube.com/c/feelingszzzzz" target="_blank" class="bbf-channel-link">
+                <div class="youtube-channel" id="feelingzz">
+                    <img src="/static/img/feeingzz-logo.jpg" alt="logo" class="youtube-channel-logo">
+                    <h4>Feelings zzZzz</h4>
+                    <p>Aug 29, 2017</p>
+                    <h6 class="live-symbol">UPDATED DAILY</h6>
+                    <p>SUBSCRIBER: <span id="live-subscribers-feeling"></span></p>
+                    <p>VIDEOS: <span id="live-videos-feeling"></span></p>
+                    <p>VIEWS: <span id="live-views-feeling"></span></p>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/c/BBF000" target="_blank" class="bbf-channel-link">
+                <div class="youtube-channel" id="bbf">
+                    <img src="/static/img/bbf-main-logo.jpg" alt="logo" class="youtube-channel-logo">
+                    <h4>BBF</h4>
+                    <p>Sep 29, 2015</p>
+                    <h6 class="live-symbol">UPDATED DAILY</h6>
+                    <p>SUBSCRIBER: <span id="live-subscribers-bbf"></span></p>
+                    <p>VIDEOS: <span id="live-videos-bbf"></span></p>
+                    <p>VIEWS: <span id="live-views-bbf"></span></p>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/c/NoobGamerBBF" target="_blank" class="bbf-channel-link">
+                <div class="youtube-channel" id="noob-gamer-bbf">
+                    <img src="/static/img/bbf.jpg" alt="logo" class="youtube-channel-logo">
+                    <h4>Noob Gamer BBF</h4>
+                    <p>Mar 22, 2018</p>
+                    <h6 class="live-symbol">UPDATED DAILY</h6>
+                    <p>SUBSCRIBER: <span id="live-subscribers-noobbbf"></span></p>
+                    <p>VIDEOS: <span id="live-videos-noobbbf"></span></p>
+                    <p>VIEWS: <span id="live-views-noobbbf"></span></p>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/c/BBFisLive" target="_blank" class="bbf-channel-link">
+                <div class="youtube-channel" id="bbf-live">
+                    <img src="/static/img/bbf/abu.jpg" alt="logo" class="youtube-channel-logo">
+                    <h4>BBF Live</h4>
+                    <p>Apr 22, 2020</p>
+                    <h6 class="live-symbol">UPDATED DAILY</h6>
+                    <p>SUBSCRIBER: <span id="live-subscribers-bbflive"></span></p>
+                    <p>VIDEOS: <span id="live-videos-bbflive"></span></p>
+                    <p>VIEWS: <span id="live-views-bbflive"></span></p>
+                </div>
+            </a>
+        </div>
+        <div class="about-family">
+            <div class="family-pics">
+                <img id="family-images" src="/static/img/family/bbf fam (1).jpg" alt="failed loading">
+            </div>
+            <div class="family-card">
+                <img src="/static/img/family/bbf fam (1).jpg" alt="sexy-talha">
+                <h4>FAMILY</h4>
+                <!-- uupdate needed -->
+                <p id="members">Members: 4</p>
+                <p id="DOB">DAD: </p>  
+                <p id="free-fire-id">MOTHER: </p>
+                <p id="income">SISs:
+                <ul>
+                    <li></li>
+                    <li></li>
+                </ul>
+                </p>
+                <h6>THIS DATA IS CURRENTLY UNREVELED. WILL BE UPDATED SOON</h6>
+                <p id="mom-demise">Sadly his mother demised in 2020. We can feel his pain but we are happy that he is
+                    now
+                    recovered and accepted the nature.</p>
+            </div>
+        </div>
+        <a href="https://www.youtube.com/c/SissoTube" target="_blank" class="sisso-channel-link">
+            <div class="youtube-channel" id="sisso-channel">
+                <img src="/static/img/sisso-logo.png" alt="logo" class="youtube-channel-logo">
+                <h4>Sisso Tube</h4>
+                <p>Jun 28, 2020</p>
+                <p>Channel of BBF's sisters</p>
+                <h6 class="live-symbol">UPDATED DAILY</h6>
+                <p>SUBSCRIBER: <span id="live-subscribers-sisso"></span></p>
+                <p>VIDEOS: <span id="live-videos-sisso"></span></p>
+                <p>VIEWS: <span id="live-views-sisso"></span></p>
+            </div>
+        </a>
+    </section>
+    <!-- end os about  -->
+
+    <!-- start of achievement -->
+    <section id="achievement">
+        <h2 class="achievement-top">Achievement</h2>
+        <div class="achivements">
+            <button class="btn"></i></button>
+        </div>
+
+    </section>
+    <!-- end os achievement  -->
+    <!-- start of contact -->
+    <section id="contact">
+        <h2 class="contact-top">Contact</h2>
+        <div class="contact-conatner">
+        <a href="https://discord.gg/bbf" class="bbf-discord"><i class="fa-brands fa-discord"></i><span class="tooltiptext">BBF Discord Server</span></a>
+        <a href="https://www.instagram.com/heyy_talha/" class="bbf-personal-insta"><i class="fa-brands fa-instagram"></i><span class="tooltiptext">Personal Instagram</span></a>
+        <a href="https://www.instagram.com/heyy_abutalha/" class="bbf-anime-insta"><i class="fa-brands fa-instagram"></i><span class="tooltiptext">Instagram For Anime Lover</span></a>
+        <a href="mailto:noobgamerbbfbusiness@gmail.com " class="bbf-mail"><i class="fa-solid fa-envelope"></i><span class="tooltiptext">Buiness Mail</span></a>
+        <a href="https://www.facebook.com/noobgamerbbfofficial" class="bbf-fb-page"><i class="fa-brands fa-facebook-f"></i><span class="tooltiptext">Facebook Page</span></a>
+    </div>
+    </section>
+    <!-- end os contact  -->
+    <!-- scrips files -->
+    <script src="{{ url_for('static',filename='/index.js') }}"></script>
+</body>
+
+</html>
