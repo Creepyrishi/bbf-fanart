@@ -82,7 +82,7 @@ const bbflive_id = "UCADEoefqbQNqCoQ7hXN7zvw"
 const sissoTube_id ="UCMuqLckRfhhNNMkeU8SLY5Q"
 
 function youtube_channel_data(id) {
-    const key = 'PASTE-YOUR-KKEY-HERE'; //youtube data v3 api key for you tube datareeze 
+    const key = 'PASTE-YOUR-KEY-HERE'; //youtube data v3 api key for you tube datareeze 
     fetch(`https://www.googleapis.com/youtube/v3/channels?part=statistics&id=${id}&key=${key}`)
         .then(Response => {
             return Response.json()
