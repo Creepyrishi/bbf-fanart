@@ -7,5 +7,5 @@ I took help form:
   <li>Freecodecamo.org</li>
   <li>My school computer book :)</li>
 </ul>
+Hosted [HERE](https://bbf-fanart.web.app/){:target="_blank"}
 
-Hosted <a herf="https://bbf-fanart.web.app">HERE</a>
