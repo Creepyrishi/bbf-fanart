@@ -7,5 +7,6 @@ I took help form:
   <li>Freecodecamo.org</li>
   <li>My school computer book :)</li>
 </ul>
-Hosted [HERE](https://bbf-fanart.web.app/){:target="_blank"}
+Hosted [HERE](https://bbf-fanart.web.app/)
+
 
