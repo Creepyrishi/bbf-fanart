@@ -68,3 +68,5 @@ node_modules/
 ./n
 .firebase
 firebase.json
+.firebaserc
+.gitgnore
